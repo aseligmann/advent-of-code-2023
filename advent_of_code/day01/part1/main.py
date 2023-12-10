@@ -31,7 +31,7 @@ def parse_line(line: str):
 
 
 def main():
-    print("Advent of Code 2023 - Day 01")
+    print("Advent of Code 2023 - Day 01 - part 1")
     dirname = os.path.dirname(__file__)
     input_file = os.path.join(dirname, "input.txt")
 
