@@ -6,7 +6,7 @@ import numpy as np
 def parse_line(line: str):
     # Get first and last integers
     # Split at digits using regex
-    matches = re.split(r"(\d+)", line)
+    matches = re.split(r"(\d)", line)
     # Filter list down to only digits
     matches = list(filter(lambda x: x.isdigit(), matches))
 
