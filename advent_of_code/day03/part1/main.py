@@ -56,7 +56,8 @@ def parse_line(lines):
                         mat_valid_new[row, col_tmp] = True
                     else:
                         break
-    
+    mat_valid = mat_valid_new
+
     # Extract numbers
     numbers = []
     number_tmp = ""
